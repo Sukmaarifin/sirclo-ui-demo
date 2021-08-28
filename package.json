@@ -1,6 +1,6 @@
 {
-  "name": "sirclo-ui-demo",
-  "version": "0.0.1",
+  "name": "sirclo-ui-demo-snt",
+  "version": "0.0.0",
   "description": "Sirclo UI demo only for show and tell",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,6 +8,10 @@
     "build": "tsc",
     "publish": "tsc publish"
   },
+
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": [
     "ui",
     "design",
