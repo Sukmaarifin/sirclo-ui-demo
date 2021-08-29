@@ -1,39 +1,32 @@
 {
   "name": "sirclo-ui-demo-snt",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "Sirclo UI demo only for show and tell",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "webpack"
   },
   "files": [
-    "build",
+    "lib",
     "README.md"
   ],
   "keywords": [
-    "ui",
-    "design",
-    "component",
     "react-component"
   ],
   "author": "sukma",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
-    "@babel/preset-react": "^7.7.4",
-    "babel-loader": "^8.0.6",
     "css-loader": "^6.2.0",
     "style-loader": "^1.0.1",
+    "sass-loader": "^12.1.0",
+    "ts-loader": "^9.2.5",
     "webpack": "^5.51.1",
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "react": "^16.12.0",
     "sass": "^1.38.2",
-    "sass-loader": "^12.1.0",
-    "ts-loader": "^9.2.5",
     "typescript": "^4.4.2"
   }
 }
