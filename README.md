@@ -1,13 +1,6 @@
-<h1 align="center">Sirclo UI DEMO SNT</h1>
+## ✨ What is this ?
 
-<div align="center">
-
-React UI library free from sirclo.
-
-## ✨ Features
-
-- 🌈 Free UI designed for web applications.
-- 🛡 Written in TypeScript with predictable static types.
+a React UI component 🌈
 
 ## 📦 Install
 
