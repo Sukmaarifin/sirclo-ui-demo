@@ -1,5 +1,5 @@
-import { string } from 'prop-types';
-import React from 'react'
+import React from 'react';
+import './styles.css';
 
 type ButtonPropsTypes = {
     type?: 'primary'| 'dashed' | 'link' | 'text',
